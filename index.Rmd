@@ -81,8 +81,9 @@ use_logo(
 <img style="vertical-align:middle" src="https://imagizer.imageshack.com/img922/8876/bipedm.png", width="70px"> &nbsp;&nbsp;&nbsp;&nbsp;
 <img style="vertical-align:middle" src="https://imagizer.imageshack.com/img922/3301/9OMtZ2.png", width="70px"> 
 
+---  
 .em14[.white[Samuel Merk | PH Karlsruhe]]  
-
+Folien: bit.ly/merk038
 
 ???
 Sehr geehrte Frau Schultheis, sehr geehrte Mitglieder der Berfufungskommission, liebe Studierende!
@@ -585,6 +586,9 @@ knitr::include_graphics("img/aufg_d.png")
 .pull-left[
 
 ```{r, echo = F, out.width="90%", fig.align='center', message = F, warning = F, fig.retina=5, fig.height=5, fig.width=8}
+library(viridis)
+library(gplots)
+data_dummy_tsheatmap <- read_excel("MWE_Data_1_von Sarah.xlsx")
 data_heatmap <- data_dummy_tsheatmap%>%
   select(-PID)%>%
   sample_frac(size = 1)%>%
