@@ -78,7 +78,7 @@ use_logo(
 
 ### .white[Alter Wein in neuen Schläuchen - oder echte Innovation?]
 
-<img style="vertical-align:middle" src="https://imagizer.imageshack.com/img922/8876/bipedm.png", width="70px"> &nbsp;&nbsp;&nbsp;&nbsp;
+<img style="vertical-align:middle" src="img/Sa_positiv.png", width="70px"> &nbsp;&nbsp;&nbsp;&nbsp;
 <img style="vertical-align:middle" src="https://imagizer.imageshack.com/img922/3301/9OMtZ2.png", width="70px"> 
 
 ---  
@@ -194,7 +194,8 @@ background-size: cover
 
 ### Potential ist der Technologie jedoch nicht inhärent .cit[(Bez, Tomasik & Merk, 2022)]
 .em13[
-* Anreicherung entsteht durch Passung von didaktischem Szenario und Technologie
+* Anreicherung jedoch mithilfe digitaler Technologie oft leichter unsetzbar
+* Potential entsteht durch Passung von didaktischem Szenario und Technologie
 * Dadurch ist der Technologieeinsatz keine hinreichende Bedingung für Unterrichtsqualität/Lernerfolg
 ]
 
@@ -280,18 +281,6 @@ ggplot(data_d02,
 
 ---
 
-# Substitution beim Textlesen
-
-## .phgreenlight[Bestenfalls Nulleffekte] .cit[(Delgado et al., 2018)]
-.large[
-* Metaanalsyse mit $n = 44$ Studien; $N =171055$ Teilnehmerinnen und Teilnehmern
-* Kleine Effekte zu ungusten digitalen Lesens (Hedge's $g = −0.21$; Cohen's $U_3 = .42$ ).
-* Moderatoren: Zeitbeschränkung, Textgenre, Publikationsjahr
-]
-
-
----
-
 # Das SAMR-Modell .cit[(Puentedura, 2006)]
 
 ## .phgreenlight[A]ugmentation
@@ -299,7 +288,7 @@ ggplot(data_d02,
 .center[
 `r fontawesome::fa("chalkboard-teacher", fill = "#62DC3A", height = "150px")` &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
 `r fontawesome::fa("arrow-right", fill = "#62DC3A", height = "150px")` &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
-`r fontawesome::fa("play-circle", fill = "#62DC3A", height = "150px")` 
+`r fontawesome::fa("youtube", fill = "#62DC3A", height = "150px")` 
 ]
 
 ---
@@ -337,10 +326,7 @@ knitr::include_graphics("img/drawing_michas.png")
   
 .cit[(Michas & Berry, 2000)]]
 
---
 
-.large[
-* Interaktion mit Modalitätseffekten $U_3 = .58$ vs. $U_3 = .81$]
 
 ---
 
@@ -372,32 +358,12 @@ class: hide_logo
 * Feedback gilt als vergleichweise stark lernförderliche Intervention .cit[(Black & Wiliam, 2009)]
 * Formatives Assessment wird jedoch kaum von Lehrkräften umgesetzt .cit[(Maier, 2019)]
 * Digitalen Technologien wird Potential zugeschrieben, die Hürden für formatives Assessment zu senken .cit[(Tomasik et al., 2018)]]
---
-.pull-left[
-.center[
-&nbsp;<br>
-#### Sowohl Substitution...
-`r fontawesome::fa("file-alt", fill = "#62DC3A", height = "100px")` &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
-`r fontawesome::fa("arrow-right", fill = "#62DC3A", height = "100px")` &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
-`r fontawesome::fa("tablet-alt", fill = "#62DC3A", height = "100px")` 
-]
-]
-.pull-right[
-.center[
-&nbsp;<br>
-#### ... als auch Transformation
-```{r, echo = F, fig.cap="molview.org", out.width="35%"}
-knitr::include_graphics("img/MolView.png")
-```
-]
-]
 
-??? 
-warum Digitales Form Assessment beforschen?
+
 ---
 class: middle, center
 
-```{r, echo = F, fig.cap="Projektablauf: »Vom Testergebnis zur pädagogischen Maßnahme« (Biaesch Stiftung"}
+```{r, echo = F, fig.cap="Projektablauf: »Vom Testergebnis zur pädagogischen Maßnahme« (Biaesch Stiftung)"}
 knitr::include_graphics("img/Verlauf_Biaesch.png")
 ```
 
